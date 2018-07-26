@@ -1,0 +1,83 @@
+/**
+CRIADO POR TIAGO
+
+PARA ESTILIZAR A RECEITA MÉDICA
+**/
+
+/* Alinha o conteúdo da DIV logo a esquerda */
+#Divlogo{
+    text-align: left;
+}
+
+#Divlogo p{
+	margin: 0;
+}
+
+/* Formata o título principal da DIV logo */
+#pPriLogo{
+    text-decoration:none;
+	font-family: Syncopate; 
+	font-size: 17px; 
+	line-height: 25px; 
+	color: rgb(224, 95, 3); 
+	/*text-shadow: rgba(0, 0, 0, 0.0980392) 0px 3px 5px, rgba(255, 255, 255, 0.298039) 0px -5px 35px;*/ 
+	text-shadow: rgba(0, 0, 0, 0.0980392) 0px 3px 5px;
+	letter-spacing: 4px; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-transform: uppercase; 
+	display:block; 
+	color:black;
+}
+
+/* Formata o título secundário da DIV logo */
+#pSecLogo{
+    text-decoration:none;color: rgb(150, 150, 150); 
+	line-height: 24px; 
+	text-transform: none; 
+	letter-spacing: 4px; 
+	font-size: 15px; 
+	padding-left: 2px; 
+	padding-right: 2px; 
+	background-color: transparent; 
+	text-shadow: none; 
+	font-family: Abel; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-decoration: initial; 
+	display: block; 
+	color:black;
+}
+
+/* Alinha ao centro os títulos principais da receita (Nome do cliente e endereço do cliente) */
+#titulos{
+    text-align: center;
+}
+
+/* Formata o título nome do cliente */
+#tituloPri{
+    font-size:12px;
+}
+
+/* Formata o título endereço do cliente */
+#tituloSec{
+    font-size:10px;
+}
+
+/* Espande a DIV que possui do conteúdo da receita */
+#conteudo{
+    height: 500px;
+    padding: 20px 10px;
+    line-height: 150%;
+    font-size: 17px;
+}
+
+/* Formata a DIV de assinatura */
+#assinatura{
+    border-top:1px solid; text-align:center; width:250px; float: right; margin-right: 80px;
+}
+
+/* Formata o rodapé da receita */
+#rodape{
+    clear: both; margin-top: 80px;
+}

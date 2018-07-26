@@ -1,0 +1,162 @@
+/**
+CRIADO POR TIAGO
+**/
+
+/* JQUERY VALIDADE - ERRO DE PREENCHIMENTO */
+label.error { 
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    font-weight: bold;
+}
+
+/* CAMPO OBRIGATÓRIO DO FORMULÁRIO */
+.obrigatorio{
+    font-size: 1.5em;
+    color: red;
+}
+
+.textoCentro{
+	text-align: center;
+}
+
+/* TABELA - ALTERNA AS CORES DAS LINHAS IMPÁRES E PARES */
+table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+/* TABELA - ALINHAMENTO CENTRALIZADO DA ÚLTIMA COLUNA DA TABELA */
+table tbody tr td:last-child{
+    text-align: center;
+}
+
+/* TABELA - ALINHAMENTO CENTRALIZADO DA ÚLTIMA COLUNA DA TABELA */
+table th:last-child{
+    text-align: center;
+}
+
+/* ICONE IMAGEM - AUMENTA O TAMANHO DA FONTE*/
+.tamIcone{
+   font-size: 25px; 
+}
+
+/* ICONE IMAGEM - CLICAVÉL SEM SUBLINHADO */
+.iconeClick{
+    cursor: pointer;
+}
+
+/* PERSONALIZA OS SPANS QUE SÃO USADOS JUNTO COM TÍTULO*/
+#spanCustomTitle{
+    float: right; 
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* PERSONALIZA A DIV DE RESULTADO DA BUSCA DE PACIENTE NA HORA DE MARCA CONSULTA */
+#resMarcar{
+    display: none;
+    height: 200px;
+    overflow: auto;
+}
+
+/* PERSONALIZA A DATA (HOJE) NO CALENDÁRIO */
+.calendarHoje{
+    background-color: #F90;
+}
+
+/* PERSONALIZA A DATA (SELECIONADA) NO CALENDÁRIO */
+.calendarSelecionada{
+    background-color: #999;
+}
+
+/* PERSONALIZA A TELA DE LOGIN (DIV PRINCÍPAL) */
+#div_principal_login{
+    float: none;
+}
+
+/* PERSONALIZA A TELA DE LOGIN (LOGO PRINCÍPAL) */
+#logo_login{
+    text-align:left;
+}
+
+/* PERSONALIZA A DIV DO FORMULÁRIO DA TELA DE LOGIN */
+#div_form_login{
+    float: none;
+    padding:10px;
+    margin: 0 auto;    
+}
+
+/* PERSONALIZA A DIV DO AUTOR DO SISTEMA NA TELA DE LOGIN */
+#div_login_desenvolvedor{
+    float:right; 
+    padding:10px;   
+}
+
+/* PERSONALIZA A FORMULÁRIO DA TELA DE LOGIN */
+#form_login{
+    text-align: left;
+}
+
+#link_lembra_senha{
+    float: left;
+}
+
+#btn_logar{
+    float: right;
+}
+
+#usuario{
+    text-align: right;
+    padding-right:50px;
+}
+
+/* PERSONALIZA A DIV QUE TEM O CONTEÚDO DO ATENDIMENTO */
+#div_atendimento{
+    margin-bottom: 100px;
+}
+
+#divReceita{
+    text-align:right;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+/* SEPARA AS RECEITAS DO HISTÓRICO DE ATENDIMENTO VISUALIZADAS PELO MÉDICO */
+.separadorReceitasHistorico{
+	border-bottom:1px solid;
+}
+
+/* DIV DE HORÁRIOS */
+#horarios{
+	-webkit-column-count:5; 
+	-moz-column-count:5;  
+	column-count:5; 
+	overflow: auto; 
+	height: 110px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* COLOCA O MODAL BEM ALTO */
+#frmMarcaConsulta{
+    /*position: fixed;
+    top: 220px;*/
+}
+
+#idPermissoes{
+    list-style-type: none;
+}
+
+#divPermissoes{
+    clear:both; padding-top: 15px;
+}
